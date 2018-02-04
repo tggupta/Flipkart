@@ -40,8 +40,9 @@ public class practHashMap {
 		Map<Integer,WebElement> map=new HashMap<>();
 		for(int i=0;i<list.size();i++)
 		{
+			System.out.println("List at "+i+ "is "+list.get(i));
 			map.put(i, list.get(i));
-			System.out.println("*******value of I is******* "+i);
+			System.out.println("***********new row**************");
 		}
 		
 		System.out.println(map.get(2).getText());

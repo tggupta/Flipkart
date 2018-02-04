@@ -42,7 +42,7 @@ public class practHashMap {
 		{
 			System.out.println("List at "+i+ "is "+list.get(i));
 			map.put(i, list.get(i));
-			System.out.println("***********now new row appear**************");
+			System.out.println("***********above new row appear**************");
 		}
 		
 		System.out.println(map.get(2).getText());
